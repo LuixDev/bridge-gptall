@@ -1,0 +1,4 @@
+{
+  "gpt4all_url": "http://localhost:4891/v1/chat/completions",
+  "model": "Llama-3-8B-Instruct"
+}
