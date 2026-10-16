@@ -1,3 +1,7 @@
+api = http://localhost:8000/v1/chat/completions
+
+.\.venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000
+
 cd "e:\Desktop\ruta\gpt4all-bridge"
 py -m venv .venv
 .\.venv\Scripts\python -m pip install -r requirements.txt
