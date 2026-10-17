@@ -1,7 +1,7 @@
 api = http://localhost:8000/v1/chat/completions
 
 para correr llms
-.\.venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000
+python -m uvicorn main:app --host 127.0.0.1 --port 8000
 
 ejercicio de ejemplo llms local
 python chat.py
